@@ -1,0 +1,231 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+/* Navigation Styles */
+nav {
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 10px -6px #3d3d3d;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.page-menu {
+    margin-left: 60px;
+
+}
+.page-menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.page-menu li {
+    float: left;
+    width: 60px;
+}
+.page-menu a:hover {
+    color: #6D9058;
+}
+
+#clearboth {
+    clear: both;
+}
+.page-menu a {
+    text-decoration: none;
+    text-align: center;
+    color: #1b1b1b;
+    font-weight: 700;
+}
+.socialmedia {
+    width: 145px;
+    margin-right: 60px;
+}
+.socialmedia img{
+    width: 30px;
+    height: 30px;
+    margin-left: 3px;
+}
+
+/* Home Section Styles */
+section{
+    margin-top: 130px;
+    position: relative;
+    margin-bottom: 100px;
+    z-index: 10;
+
+}
+.home-text {
+    width: 448;
+    position: absolute;
+    margin-left: 80px;
+    top: 100px;
+
+}
+.home-text h1 {
+    font-size: 7.5em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.change {
+    background-color: black;
+    color: #fff;
+}
+.home-text p{
+    width: 390px;
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: .15em;
+}
+.home-text a {
+    border: 1px solid #6D9058;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #6D9058;
+    padding: 10px 30px;
+    font-size: .9em;
+}
+.home-img img {
+    width: 950px;
+    height: auto;
+    float: right;
+    margin-bottom: 80px;
+}
+
+/* About Section Styling */
+.white-space {
+    padding: 350px;
+} 
+/* I want to know if there’s a way to work with 2 positions and then continue coding normally at the bottom of them, my solution was adding an empty div with lots of padding */
+
+
+#about {
+    z-index: -1;
+    background-color: #D1E5C4;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.about-text {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.about-text h2 {
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    background-color: black;
+    color: #fff;
+    word-spacing: .18em;
+    letter-spacing: .13em;
+}
+.about-text p {
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: .15em;
+}
+article {
+    width: 1270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-section h2 {
+    text-align: center;
+    width: 280px;
+    font-size: 2em;
+    margin-top: 90px;
+    background-color: black;
+    color: #fff;
+    word-spacing: .15em;
+    letter-spacing: .13em;
+}
+.process-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+.process {
+    width: 420px;
+    text-align: center;
+}
+.process p {
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: .05em;
+}
+.research-section {
+    width: 1067px;
+    margin: 90px auto;
+    text-align: center;
+    letter-spacing: .05em;
+}
+iframe {
+    width: 100%;
+	height: 600px;
+	border: none;
+}
+
+/* CONTACT Section Styles */
+.contact-section {
+    width: auto;
+    text-align: center;
+    background-color: #D1E5C4;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.contact-section h2 {
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    font-size: 2em;
+    background-color: black;
+    color: #fff;
+    word-spacing: .15em;
+    letter-spacing: .13em;
+}
+.contact {
+    display: flex;
+    width: 1270px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.contact-img img {
+    width: 607px;
+    height: 348px;
+}
+.contact-text {
+    width: 550px;
+    padding-top: 50px;
+    text-align: left;
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: .18em;
+}
+
+/* Footer Section Styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1em;
+    font-weight: 500;
+}
+footer p {
+    margin: 0px;
+}
